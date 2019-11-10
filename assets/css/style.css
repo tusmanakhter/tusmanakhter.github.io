@@ -44,10 +44,11 @@ li {
 #main {
   max-width: 42.5rem;
   margin: 0 auto;
+  padding: 1rem;
 }
 
 #content {
-  margin: 9.5rem 1rem;
+  margin: 15vh 0;
 }
 
 #links {
@@ -76,8 +77,6 @@ li {
 
 #header {
   text-align: right;
-  padding-top: 1rem;
-  padding-right: 0.5rem;
 }
 
 #header svg {
@@ -165,10 +164,12 @@ button:hover,
   }
 
   #main {
-    width: 100%;
+    max-width: 100%
   }
+}
 
+@media only screen and (max-device-width: 350) {
   #content {
-    margin-top: 6.5rem;
+    margin: 7vh 0;
   }
 }
